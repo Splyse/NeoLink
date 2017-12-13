@@ -108,7 +108,7 @@ testinvoke b3a14d99a3fb6646c78bf2f4e2f25a7964d2956a putvalue ['test','0000ff'] -
     - user: neo@splyse.tech
     - pass: neo
 - Locate contract with name 'test' in the list of Devices
-- Enter a color code hex value in the form of '00ff00' into the input field
+- Enter a color code hex value in the form of '00ff00' (without quotes) into the input field
 - Click pay
 - If you are logged into your NeoLink wallet it will ask you to authorize the transaction.
 - Open NeoLink and click the 'yes' button to authorize the transaction.
