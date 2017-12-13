@@ -88,4 +88,29 @@ Please note that currently the code is limited to a maximum of three arguments t
 TODO: add arbritrary number of arguments
 
 
+## Triggering an IoT Smart Contract Payment
+
+### Python
+
+Python command line: (must be synced to TestNet)
+```
+testinvoke b3a14d99a3fb6646c78bf2f4e2f25a7964d2956a putvalue ['test','0000ff'] --attach-gas=0.000025
+
+```
+
+### NeoLink
+
+- Install NeoLink
+    - Clone github.com/cityofzion/neolink/
+    - Follow the instructions there to install and build
+    - Login with encrypted WIF (wallet needs a balance of TestNet gas)
+
+- Login to iot.splyse.tech
+    - user: neo@splyse.tech
+    - pass: neo
+- Locate test contract in the list of Devices
+- Enter a color code hex value in the form of 00ff00 into the input field
+- Click pay
+- If you are logged into your NeoLink wallet, it will ask you to authorize the transaction.
+- Open NeoLink and click the 'yes' button to authorize the transaction.
 
