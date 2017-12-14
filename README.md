@@ -94,7 +94,7 @@ TODO: add arbritrary number of arguments
 
 Python command line: (must be synced to TestNet)
 ```
-testinvoke b3a14d99a3fb6646c78bf2f4e2f25a7964d2956a putvalue ['test','0000ff'] --attach-gas=0.000025
+testinvoke b3a14d99a3fb6646c78bf2f4e2f25a7964d2956a putvalue ['test','0000ff'] --attach-gas=0.00025
 
 ```
 
